@@ -29,7 +29,7 @@ wsl --import Adelie C:/Windows/System32/Adelie %USERPROFILE%/Downloads/Adelie-x6
 or with `.tar` file extracted
 
 ``` powershell
-wsl --import Adelie C:/Windows/System32/Adelie %USERPROFILE%/Downloads/Adelie-x64-1.0-rc2.tar
+wsl --import Adelie C:/Windows/System32/Adelie %USERPROFILE%/Downloads/Adélie.tar
 ```
 
 ## Pre-installed packages
