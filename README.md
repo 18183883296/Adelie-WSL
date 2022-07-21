@@ -7,7 +7,7 @@ This is an Out-of-the-box Adélie distribution on Windows Subsystem for Linux (W
 
 Official Website: [Original](https://oldwww.adelielinux.org/);[New](https://www.adelielinux.org/);[Gitlab](https://git.adelielinux.org/adelie)
 
-## Require
+## Requirement
 
 You should have enabled `Microsoft-Windows-Subsystem-Linux`(WSL), even better with `VirtualMachinePlatform` before install this distro on your Windows device.
 Download or decompress the latest Adelie distro from [Release](https://github.com/18183883296/Adelie-WSL/releases).
@@ -24,7 +24,7 @@ wsl --import <DistroName> <DirToInstall> <FilePath>
 wsl --import Adelie C:/Windows/System32/Adelie %USERPROFILE%/Downloads/Adelie-x64-1.0-rc2.tgz
 ```
 
-## Pre-installed
+## Pre-installed packages
 
 |   Package   | Version |
 | :---------: | :-----: |
