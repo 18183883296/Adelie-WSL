@@ -1,23 +1,30 @@
 # Adelie-WSL
 
-This is an Out-of-the-box Adélie distribution on Windows Subsystem for Linux (WSL), based on the Linux kernel and musl runtime library.
 
-Official Website: [Original](https://oldwww.adelielinux.org/)、[New](https://www.adelielinux.org/)
+## Introduction
 
+This is an Out-of-the-box Adélie distribution on Windows Subsystem for Linux (WSL), based on the Linux kernel and musl runtime library.You may also build `.iso` system images with the tools provided on the official website.
 
-# Usage
+Official Website: [Original](https://oldwww.adelielinux.org/);[New](https://www.adelielinux.org/);[Gitlab](https://git.adelielinux.org/adelie)
+
+## Require
+
+You should have enabled `Microsoft-Windows-Subsystem-Linux`(WSL), even better with `VirtualMachinePlatform` before install this distro on your Windows device.
+Download or decompress the latest Adelie distro from [Release](https://github.com/18183883296/Adelie-WSL/releases).
+
+## Usage
 
 ``` powershell
 wsl --import <DistroName> <DirToInstall> <FilePath>
 ```
 
-# Example
+## Example
 
 ``` powershell
 wsl --import Adelie C:/Windows/System32/Adelie %USERPROFILE%/Downloads/Adelie-x64-1.0-rc2.tgz
 ```
 
-# Pre-installed
+## Pre-installed
 
 |   Package   | Version |
 | :---------: | :-----: |
@@ -30,4 +37,3 @@ wsl --import Adelie C:/Windows/System32/Adelie %USERPROFILE%/Downloads/Adelie-x6
 |    ruby     |  2.7.1  |
 |   zoxide    |  0.8.2  |
 |     zsh     |   5.8   |
-
