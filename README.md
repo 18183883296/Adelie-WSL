@@ -8,7 +8,7 @@ Official Website: [Original](https://oldwww.adelielinux.org/)、[New](https://ww
 # Usage
 
 ``` powershell
-wsl --import <DistroName> <InstallDir> <FilePath>
+wsl --import <DistroName> <DirToInstall> <FilePath>
 ```
 
 # Example
