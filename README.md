@@ -20,8 +20,16 @@ wsl --import <DistroName> <DirToInstall> <FilePath>
 
 ## Example
 
+With `.tgz` file downloaded
+
 ``` powershell
 wsl --import Adelie C:/Windows/System32/Adelie %USERPROFILE%/Downloads/Adelie-x64-1.0-rc2.tgz
+```
+
+or with `.tar` file extracted
+
+``` powershell
+wsl --import Adelie C:/Windows/System32/Adelie %USERPROFILE%/Downloads/Adelie-x64-1.0-rc2.tar
 ```
 
 ## Pre-installed packages
