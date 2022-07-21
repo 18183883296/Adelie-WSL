@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This is an Out-of-the-box Adélie distribution on Windows Subsystem for Linux (WSL), based on the Linux kernel and musl runtime library.You may also build `.iso` system images with the tools provided on the official website.
+It's an Out-of-the-box Adélie distribution on Windows Subsystem for Linux (WSL), based on the Linux kernel and musl runtime library.You may also build `.iso` system images with the tools provided on the official website.
 
 Official Website: [Original](https://oldwww.adelielinux.org/);[New](https://www.adelielinux.org/);[Gitlab](https://git.adelielinux.org/adelie)
 
